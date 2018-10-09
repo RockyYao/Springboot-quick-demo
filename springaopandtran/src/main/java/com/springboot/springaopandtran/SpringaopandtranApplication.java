@@ -1,15 +1,12 @@
-package com.springboot.rabbitmq;
+package com.springboot.springaopandtran;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class RabbitmqApplication {
+public class SpringaopandtranApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(RabbitmqApplication.class, args);
-		System.out.println("生产者启动了");
+		SpringApplication.run(SpringaopandtranApplication.class, args);
 	}
 }
